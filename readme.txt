@@ -1,4 +1,4 @@
-===  ACF Post-2-Post ===
+===  ACF Post-2-Post [Fork] ===
 Contributors: Hube2
 Tags: acf, advanced custom fields, add on, bidirectional, 2 way, two way, relationship
 Requires at least: 4.0
@@ -7,7 +7,7 @@ Stable tag: 1.2.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Automatic Two Way (Bidirectional) Relationships with ACF5
+Automatic Two Way (Bidirectional) Relationships with ACF5. Remove test when ACF is included in theme.
 
 
 == Description ==
