@@ -1,7 +1,7 @@
 <?php 
 
 	/*
-		Plugin Name: ACF Post-2-Post
+		Plugin Name: ACF Post-2-Post [Fork]
 		Plugin URI: https://github.com/Hube2/acf-post2post
 		Description: Two way relationship fields
 		Version: 1.2.7
@@ -10,7 +10,7 @@
 		GitHub Plugin URI: https://github.com/Hube2/acf-post2post
 		License: GPL v2 or later
 		
-		Automatic Two Way (Bidirectional) Relationships with ACF5 
+		Automatic Two Way (Bidirectional) Relationships with ACF5. Remove test when ACF is included in theme.
 		
 	*/
 	
@@ -28,10 +28,10 @@
 		} // end public function __construct
 		
 		public function plugins_loaded() {
-			if (!function_exists('acf_get_setting')) {
-				add_action('admin_init', array($this, 'missing_acf5'));
-				return;
-			}
+			//if (!function_exists('acf_get_setting')) {
+			//	add_action('admin_init', array($this, 'missing_acf5'));
+			//	return;
+			//}
 			$acf_version = acf_get_setting('version');
 			if (version_compare($acf_version, '5.0.0', '<')) {
 				add_action('admin_init', array($this, 'missing_acf5'));
