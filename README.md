@@ -1,7 +1,8 @@
 # Post 2 Post [Fork]
 
-Creates two way (bidirectional) relationships in Advanced Custom Fields. 
-*Remove test when ACF is included directly in theme.*
+Creates two way (bidirectional) relationships in Advanced Custom Fields.
+
+**Remove test when ACF is included directly in theme.**
 
 This plugin will provide no functionality if ACF is not installed and active.
 
